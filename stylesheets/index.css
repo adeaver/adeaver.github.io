@@ -3,8 +3,23 @@
 	text-align: center;
 }
 
+.fact_list {
+	font-family: "titleFont";
+	font-size: 30pt;
+	line-height: 140%;
+}
+
+#facts {
+	list-style-type: none;
+	text-align: center;
+}
+
 h1.title {
 	font-size: 64pt;
+}
+
+h2.title {
+	font-size: 48pt;
 }
 
 h3.title {
