@@ -9,9 +9,15 @@
 	line-height: 140%;
 }
 
+body {
+	background: url("../images/galaxy.jpg");
+	background-size: cover cover;
+	background-repeat: none;
+}
+
 #facts {
-	list-style-type: none;
-	text-align: center;
+	color:#FFFFFF;
+	height:200%;
 }
 
 h1.title {
