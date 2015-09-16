@@ -9,9 +9,53 @@
 	line-height: 140%;
 }
 
+#topimages {
+	width:100%;
+	padding: 0px;
+}
+
+.top {
+	margin: 0px;
+	width:33%;
+	height:300px;
+}
+
 #facts {
 	list-style-type: none;
 	text-align: center;
+}
+
+#projects {
+	width: 100%;
+}
+
+#experience {
+	width: 100%;
+}
+
+.info_column {
+	padding: 0px 10px 10px 10px;
+	width: 33%;
+}
+
+.info_link {
+	text-decoration: none;
+	color: #000000;
+}
+
+.info_picture {
+	width:280px;
+	height:200px;
+	display:block;
+	margin:auto;
+}
+
+.experience_name {
+	margin-top:0%;
+}
+
+.experience_loc {
+	margin-bottom:0%;
 }
 
 h1.title {
@@ -24,4 +68,16 @@ h2.title {
 
 h3.title {
 	font-size: 32pt;
+}
+
+h4.title {
+	font-size: 28pt;
+}
+
+h5.title {
+	font-size: 24pt;
+}
+
+h6.title {
+	font-size: 18pt;
 }
