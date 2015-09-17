@@ -2,3 +2,8 @@
 	font-family:titleFont;
 	src: url(../fonts/basictitlefont.ttf);
 }
+
+.title {
+	font-family: "titleFont";
+	text-align: center;
+}

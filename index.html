@@ -7,6 +7,12 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" href="./stylesheets/main.css" type="text/css" />
 	<link rel="stylesheet" href="./stylesheets/index.css" type="text/css" />
+	<script type="text/javascript" src="./js/utils.js" /></script>
+	<script type="text/javascript">
+		if(window.screen.availWidth <= 800 && getQuerys("redirected").indexOf("yes") == -1) {
+			window.location.href = "mobile.html";
+		}
+	</script>
 </head>
 
 <body>
