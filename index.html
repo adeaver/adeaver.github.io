@@ -9,11 +9,16 @@
 	<link rel="stylesheet" href="./stylesheets/index.css" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
-	var jokeArray = ["Product Owners never ask me for more features. They ask for mercy.",
+	var jokeArray = ["I live vicariously... through myself.",
 	"I always bring a knife to a gun fight... just to even the odds.",
 	"Cars look both ways to make sure I'm not crossing the street",
 	"I once won a staring contest with my own reflection",
+	"My faucets spew the tears of angels",
+	"My charm is so contagious that multiple vaccines have been created for it",
 	"I once won the Poker World series using only UNO cards",
+	"When I was six years old, I built a city of blocks...",
+	"... today it is the most populous city in the Eastern Hemisphere",
+	"I'm often questioned by the police simply because they find me interesting",
 	"I once killed two stones with one bird",
 	"Opportunity once knocked, but I wasn't home... so it waited.",
 	"I once completed a marathon because it was on the way",
@@ -22,20 +27,23 @@
 
 	var stop = jokeArray.length;
 	var index = 0;
+	$(document).ready(function() {
+		$("#facts").fadeOut(0).html("My treehouse has a fully furnished basement").fadeIn(3000);
+	});
 
 	setInterval(function() {
-		if(index < stop-1) {
-			$("#facts").fadeOut(2000, function() {
-				$("#facts").text(jokeArray[index%stop]).fadeIn(2000);
+		if(index < stop) {
+			$("#facts").fadeOut(1500, function() {
+				$("#facts").text(jokeArray[index-1]).fadeIn(1500);
 			});
 		}
 		index++;
-	}, 6000);
+	}, 5500);
 
 	</script>
 </head>
 
 <body>
-	<h1 id="facts" class="title">My treehouse has a fully furnished basement</h1>
+	<h1 id="facts" class="title"></h1>
 </body>
 </html>
