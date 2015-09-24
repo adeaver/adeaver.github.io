@@ -65,7 +65,15 @@ h3.title {
 	font-size: 32pt;
 }
 
+h3.alt_title {
+	font-size: 32pt;
+}
+
 h4.title {
+	font-size: 28pt;
+}
+
+h4.alt_title {
 	font-size: 28pt;
 }
 
@@ -73,10 +81,19 @@ h5.title {
 	font-size: 24pt;
 }
 
-h6.title {
+h5.alt_title {
+	font-size: 24pt;
+}
+
+h5.description {
 	font-size: 18pt;
+}
+
+h6.description {
+	font-size: 14pt;
 }
 
 .project_name, .experience_name, .passion_name {
 	font-weight: bold;
+	font-family: "sectionTitles";
 }

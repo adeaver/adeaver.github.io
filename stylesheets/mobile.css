@@ -58,25 +58,50 @@
 }
 
 h1.title {
-	font-size:32pt;
+	font-size:36pt;
 }
 
 h2.title {
 	font-size:24pt;
 }
 
+h3.alt_title {
+	font-size: 20pt;
+}
+
 h4.title {
-	font-size:18pt;
+	font-size:20pt;
+}
+
+h3.alt_title {
+	font-size: 18pt;
+}
+
+h4.alt_title {
+	font-size: 16pt;
 }
 
 h5.title {
 	font-size:14pt;
 }
 
+h5.alt_title {
+	font-size: 14pt;
+}
+
+h5.description {
+	font-size: 14pt;
+}
+
 h6.title {
 	font-size:12pt;
 }
 
+h6.description {
+	font-size: 12pt;
+}
+
 .project_name, .experience_name, .passion_name {
 	font-weight:bold;
+	font-family: sectionTitles;
 }
