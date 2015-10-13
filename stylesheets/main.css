@@ -1,29 +1,4 @@
 @font-face {
-	font-family:titleFont;
-	src: url(../fonts/basictitlefont.ttf);
-}
-
-@font-face {
-	font-family:sectionTitles;
-	src: url(../fonts/big_noodle_titling.ttf);
-}
-
-@font-face {
-	font-family:descriptions;
-	src: url(../fonts/desc_font.otf);
-}
-
-.title {
-	font-family: "sectionTitles";
-	text-align: center;
-}
-
-.alt_title {
-	font-family: "titleFont";
-	text-align: center;
-}
-
-.description {
-	font-family: "descriptions";
-	text-align: center;
+	font-family: "bebas";
+	src: url("../fonts/bebas.TTF");
 }
