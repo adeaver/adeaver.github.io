@@ -59,29 +59,22 @@
 /* Project Screen */
 
 .project_entry {
-	width:100%;
-	margin:30px;
-}
-
-.entry {
-	width:50%;
-	border-top:1px solid black;
-	padding: 10px;
-}
-
-.entries {
-	border-collapse: collapse;
+	width:33%;
+	padding:15px;
+	background-color: #2C3E50;
 }
 
 .info_picture {
 	width:80%;
+	height:50%;
 	display:block;
 	margin:auto;
+	margin-top:0px;
 }
 
 .entry_title {
 	font-family: bebas;
-	color: #2C3E50;
+	color: #ECF0F1;
 	font-size: 22pt;
 	text-align: center;
 }
@@ -89,9 +82,17 @@
 .entry_desc {
 	font-family: "Arial";
 	font-size: 14pt;
+	color: #ECF0F1;
 	text-align: center;
 }
 
+.entries {
+	border-spacing: 20px;
+}
+
+.entry_row {
+	max-height:100%;
+}
 
 
 /* Section that appears above navbar */

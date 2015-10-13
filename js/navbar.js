@@ -102,6 +102,9 @@ $(document).ready(function() {
 		$("#content").fadeOut("fast", function() {
 			$("#content").load("./srcs/projects.html", function() {
 				$("#content").fadeIn("fast");
+				$.getScript('./js/projects.js', function() {
+					projectClient.initialize();
+				});
 			})
 		})
 	});
