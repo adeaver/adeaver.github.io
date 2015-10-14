@@ -119,4 +119,12 @@ $(document).ready(function() {
 			})
 		})
 	});
+
+	$("#nav_passions").click(function() {
+		$("#content").fadeOut("fast", function() {
+			$("#content").load("./srcs/passions.html", function() {
+				$("#content").fadeIn("fast");
+			});
+		});
+	})
 });
