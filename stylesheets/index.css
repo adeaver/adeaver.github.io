@@ -4,7 +4,7 @@
 	position: absolute;
 	background-color: #ECF0F1;
 	width:80%;
-	height:80%;
+	height:85%;
 	margin-right: 10%;
 	margin-left: 10%;
 	box-shadow: -5px 5px 10px #888888;
@@ -21,6 +21,7 @@
 	font-family: bebas;
 	color: #2C3E50;
 	font-size:22pt;
+	text-align: center;
 }
 
 .desc_text {

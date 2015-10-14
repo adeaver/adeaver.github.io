@@ -108,4 +108,15 @@ $(document).ready(function() {
 			})
 		})
 	});
+
+	$("#nav_experience").click(function() {
+		$("#content").fadeOut("fast", function() {
+			$("#content").load("./srcs/experience.html", function() {
+				$("#content").fadeIn("fast");
+				$.getScript("./js/experience.js", function() {
+					experienceClient.initialize();
+				});
+			})
+		})
+	});
 });
