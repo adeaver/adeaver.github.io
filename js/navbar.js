@@ -129,5 +129,13 @@ $(document).ready(function() {
 				});
 			});
 		});
-	})
+	});
+
+	$("#nav_contact").click(function() {
+		$("#content").fadeOut("fast", function() {
+			$("#content").load("./srcs/contactme.html", function() {
+				$("#content").fadeIn("fast");
+			});
+		});
+	});
 });
