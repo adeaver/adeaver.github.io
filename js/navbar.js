@@ -124,6 +124,9 @@ $(document).ready(function() {
 		$("#content").fadeOut("fast", function() {
 			$("#content").load("./srcs/passions.html", function() {
 				$("#content").fadeIn("fast");
+				$.getScript('./js/passions.js', function() {
+					passionsClient.initialize();
+				});
 			});
 		});
 	})
