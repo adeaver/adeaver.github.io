@@ -57,7 +57,18 @@
 	margin-top: 20%;
 }
 
-/* Project Screen */
+#contact_intro {
+	display:inline;
+}
+
+.contact_button {
+	width:80px;
+	height:80px;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+/* Alternative Screens */
 
 .project_entry {
 	width:33%;
@@ -65,8 +76,14 @@
 	background-color: #2C3E50;
 }
 
+.contact_entry {
+	width:50%;
+	padding:15px;
+	background-color: #2C3E50;
+}
+
 .info_picture {
-	width:80%;
+	width:60%;
 	height:50%;
 	display:block;
 	margin:auto;

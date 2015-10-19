@@ -135,6 +135,9 @@ $(document).ready(function() {
 		$("#content").fadeOut("fast", function() {
 			$("#content").load("./srcs/contactme.html", function() {
 				$("#content").fadeIn("fast");
+				$.getScript('./js/contact.js', function() {
+					contactClient.initialize();
+				});
 			});
 		});
 	});
