@@ -12,6 +12,14 @@
 	<script>
 		$(document).ready(function() {
 			$("#content").load("./srcs/header.html");
+
+			var imagesUsed = ["chordly.png", "ctct.gif", "email.png", "flappybird.png", 
+			"guitar.jpg", "hackholyoke.jpeg", "hedgehogwork.jpg", "hopper1.jpg", "insper.png", "linkedin.png",
+			"spain.jpg", "TheKyzrProject.png", "uic.png"];
+
+			$(imagesUsed).each(function() {
+				$('<img />').attr('src',this).appendTo('body').css('display','none');
+			});
 		});
 	</script>
 </head>
