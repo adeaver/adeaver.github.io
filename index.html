@@ -18,7 +18,7 @@
 			"spain.jpg", "TheKyzrProject.png", "uic.png"];
 
 			$(imagesUsed).each(function() {
-				$('<img />').attr('src',this).appendTo('body').css('display','none');
+				$('<img />').attr('src',"./images/" + this).appendTo('body').css('display','none');
 			});
 		});
 	</script>
