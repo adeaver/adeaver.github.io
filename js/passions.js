@@ -37,7 +37,7 @@ var passionsClient = {
 			});
 		}, function() {
 			$("#passion_dance_content").fadeOut("fast", function() {
-				$("#passion_dance_content").html("<h4 class=\"entry_title\">Blues Dancing</h4>");
+				$("#passion_dance_content").html("<img src=\"./images/blues.png\" class=\"info_picture\" /><h4 class=\"entry_title\">Blues Dancing</h4>");
 				$("#passion_dance_content").fadeIn("fast");
 			});
 		});
