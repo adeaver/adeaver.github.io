@@ -12,7 +12,12 @@
 	<script src="./js/setupclient.js"></script>
 	<script>
 		$(document).ready(function() {
-			$("#content").load("./srcs/header.html");
+			$("#content").load("./srcs/header.html", function() {
+					$("#resume_display").click(function() {
+						window.open("./Deaver_Resume.pdf", "_blank");
+					});
+				}
+			);
 
 			var imagesUsed = ["chordly.png", "ctct.gif", "email.png", "flappybird.png", 
 			"guitar.jpg", "hackholyoke.jpeg", "hedgehogwork.jpg", "hopper1.jpg", "insper.png", "linkedin.png",
@@ -21,6 +26,7 @@
 			$(imagesUsed).each(function() {
 				$('<img />').attr('src',"./images/" + this).appendTo('body').css('display','none');
 			});
+
 		});
 	</script>
 </head>

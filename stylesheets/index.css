@@ -43,6 +43,8 @@
 	float: right;
 	width:50%;
 	text-align: center;
+	display:block;
+	margin-top:4%;
 }
 
 #intro_picture {
@@ -66,6 +68,18 @@
 	height:80px;
 	margin-right:20px;
 	margin-left:20px;
+}
+
+#resume_display {
+	background-color:#3498DB;
+	color:#ECF0F1;
+	font-family:bebas;
+	font-size:18pt;
+	padding:15px;
+	padding-right:60px;
+	padding-left:60px;
+	border-color:#ECF0F1;
+	border-radius:5px;
 }
 
 /* Alternative Screens */

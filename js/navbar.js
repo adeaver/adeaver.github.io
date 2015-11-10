@@ -93,7 +93,11 @@ $(document).ready(function() {
 	$("#nav_home").click(function() {
 		$("#content").fadeOut("fast", function() {
 			$("#content").load("./srcs/header.html", function() {
-				$("#content").fadeIn("fast");
+				$("#content").fadeIn("fast", function() {
+					$("#resume_display").click(function() {
+						window.open("./Deaver_Resume.pdf", "_blank");
+					});
+				});
 			})
 		})
 	});
