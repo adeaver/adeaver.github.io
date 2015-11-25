@@ -16,23 +16,16 @@
 	text-align: center;
 }
 
-#navbar_prompt {
-	position: fixed;
-	left: 0px;
-	bottom: 0px;
-}
-
 #navbar_link_container {
 	width: 100%;
 }
 
 #navbar_content {
-	padding: 0px;
+	height:90%;
 	position: fixed;
-	bottom: 10%;
+	top:90%;
 	left: 0px;
 	width:100%;
-	display: none;
 }
 
 .mnav_title {
