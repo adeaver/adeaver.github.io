@@ -29,4 +29,6 @@
 .mnav_title {
 	display: table-cell;
 	vertical-align: middle;
+	font-family: bebas;
+	font-size: 24pt;
 }
