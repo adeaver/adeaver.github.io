@@ -6,7 +6,7 @@ $(document).ready(function() {
 				$("#navbar_content").css("overflow-y", "scroll");
 			});
 		} else {
-			$("#navbar_content").animate({"top":"93%"}, function() {
+			$("#navbar_content").animate({"top":"90%"}, function() {
 				$("#main_title").text("Navigate");
 				$("#navbar_content").css("overflow-y", "hidden");
 			});
