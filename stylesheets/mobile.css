@@ -11,6 +11,10 @@
 	justify-content: center;
 }
 
+.nav_text_holder {
+	text-align: center;
+}
+
 #navbar_prompt {
 	position: fixed;
 	left: 0px;
@@ -26,7 +30,7 @@
 }
 
 .mnav_title {
+	text-align: center;
 	font-family: bebas;
 	font-size: 36pt;
-	text-align: center;
 }
