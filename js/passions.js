@@ -8,7 +8,7 @@ var passionsClient = {
 	}, {
 		outside:"#passion_travel",
 		inside:"#passion_travel_content",
-		description:"From Brazil to Spain to Italy, my travels have taken me all around the world.<br /><br />I love learning about and experiencing cultures from all over the world. Immersing myself in other cultures is always my favorite way of trying new foods, learning new languages (or practicing my Spanish!), or hear new music!",
+		description:"From Brazil to Spain to Italy, my travels have taken me all around the world.<br /><br />I love learning about and experiencing cultures from all over the world. Immersing myself in other cultures is always my favorite way of trying new foods, learning new languages (or practicing my Spanish!), and hearing new music!",
 		image:"./images/spain.jpg",
 		title:"Travel and<br />Foreign Languages",
 	}, {
