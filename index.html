@@ -12,6 +12,10 @@
 	<script src="./js/setupclient.js"></script>
 	<script>
 		$(document).ready(function() {
+			if(window.screen.availWidth <= 800) {
+				window.location.href = "mobile.html";
+			}
+
 			$("#content").load("./srcs/header.html", function() {
 					$("#resume_display").click(function() {
 						window.open("./Deaver_Resume.pdf", "_blank");
