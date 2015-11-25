@@ -1,0 +1,26 @@
+/* Main Page */
+
+/* Navbar */
+
+.nav_item {
+	width: 100%;
+}
+
+.nav_item_content {
+	width: 100%;
+	text-align: center;
+}
+
+#navbar_prompt {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height:10%;
+}
+
+#navbar_content {
+	position: fixed;
+	bottom: 10%;
+	left: 0px;
+	width:100%;
+}
