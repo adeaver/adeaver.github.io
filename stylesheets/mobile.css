@@ -22,7 +22,12 @@
 	bottom: 0px;
 }
 
+#navbar_link_container {
+	width: 100%;
+}
+
 #navbar_content {
+	padding: 0px;
 	position: fixed;
 	bottom: 10%;
 	left: 0px;
