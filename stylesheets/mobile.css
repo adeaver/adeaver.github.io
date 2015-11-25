@@ -24,7 +24,7 @@
 
 #navbar_content {
 	position: fixed;
-	bottom: 15%;
+	bottom: 10%;
 	left: 0px;
 	width:100%;
 	display: none;
@@ -33,5 +33,5 @@
 .mnav_title {
 	text-align: center;
 	font-family: bebas;
-	font-size: 36pt;
+	font-size: 24pt;
 }
