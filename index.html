@@ -11,24 +11,7 @@
 	<script src="./js/navbar.js"></script>
 	<script src="./js/setupclient.js"></script>
 	<script>
-		function getQuerys(val_name) {
-			var url = window.location.search.substring(1);
-			var params = url.split("&");
-
-			for(var index = 0; index<params.length; index++) {
-				if(params[index].indexOf(val_name) != -1) {
-					return params[index].split("=")[1];
-				}
-			}
-
-			return "";
-		} 
-
 		$(document).ready(function() {
-			if(window.screen.availWidth <= 800 && getQuerys("redirected") != "yes") {
-				window.location.href = "mobile.html";
-			}
-
 			$("#content").load("./srcs/header.html", function() {
 					$("#resume_display").click(function() {
 						window.open("./Deaver_Resume.pdf", "_blank");
