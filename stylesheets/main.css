@@ -1,4 +1,51 @@
-@font-face {
-	font-family: "bebas";
-	src: url("../fonts/bebas.TTF");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,600'); 
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 200;
 }
+
+strong {
+	font-weight: 600;
+}
+
+#header {
+	text-align: center;
+}
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.navbar-item {
+	text-align: center;	
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-anchor {
+	text-decoration: none;
+	color: #000000;
+}
+
+.navbar-anchor:visited {
+	color: #000000;
+}
+
+#header hr {
+	width:90%;
+}
+
+#profile_picture {
+	max-width: 85%;
+    max-height: 85%;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+}
+
+
