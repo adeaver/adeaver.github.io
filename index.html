@@ -5,87 +5,9 @@
 <head>
 	<title>Andrew Deaver</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="./stylesheets/main.css" type="text/css" />
-	<link rel="stylesheet" href="./stylesheets/index.css" type="text/css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="./js/navbar.js"></script>
-	<script src="./js/setupclient.js"></script>
-	<script>
-		$(document).ready(function() {
-			$("#content").load("./srcs/header.html", function() {
-					$("#resume_display").click(function() {
-						window.open("./Deaver_Resume.pdf", "_blank");
-					});
-				}
-			);
-
-			var imagesUsed = ["chordly.png", "ctct.gif", "email.png", "flappybird.png", 
-			"guitar.jpg", "hackholyoke.jpeg", "hedgehogwork.jpg", "hopper1.jpg", "insper.png", "linkedin.png",
-			"spain.jpg", "TheKyzrProject.png", "uic.png", "blues.png"];
-
-			$(imagesUsed).each(function() {
-				$('<img />').attr('src',"./images/" + this).appendTo('body').css('display','none');
-			});
-
-		});
-	</script>
 </head>
 
 <body>
-	<!-- Content Area -->
-	<div id="content">
-	</div>
-
-	<!-- Above Navbar -->
-	<div id="navbar_descriptions">
-		<!-- Description of Homepage -->
-		<div id="desc_nav_home" class="navbar_desc">
-			<h3>Home</h3>
-			<hr />
-			<p class="nav_desc_text">The homepage for this website</p>
-		</div>
-
-		<!-- Brief Overview of Projects -->
-		<div id="desc_nav_projects" class="navbar_desc">
-			<h3>Projects</h3>
-			<hr />
-			<p class="nav_desc_text">
-			Embracing Olin's do-learn mentality, I've worked on a number of really meaningful and educational projects from Android apps to mechnical hedgehog toys.
-			</p>
-		</div>
-		<div id="desc_nav_experience" class="navbar_desc">
-			<h3>Experience</h3>
-			<hr />
-			<p class="nav_desc_text">
-			My experiences have taken me through many different STEM fields, different roles and types of work, as well as different places in the world.
-			</p>
-		</div>
-		<div id="desc_nav_passions" class="navbar_desc">
-			<h3>Outside of Engineering</h3>
-			<hr />
-			<p class="nav_desc_text">
-			While I work in engineering, it's important to me to have a set of diverse experiences. Here are a few things I pursue in my free time.
-			</p>
-		</div>
-		<div id="desc_nav_contact" class="navbar_desc">
-			<h3>Contact Me</h3>
-			<hr />
-			<p class="nav_desc_text">
-				Interested in working with me or have any questions? Click here to find out how to contact me.
-			</p>
-		</div>
-	</div>
-
-	<!-- Navbar -->
-	<table id="navbar_container">
-		<tr>
-			<td id="nav_home" class="navbar">Home</td>
-			<td id="nav_projects" class="navbar">Projects</td>
-			<td id="nav_experience" class="navbar">Experience</td>
-			<td id="nav_passions" class="navbar">Outside of Engineering</td>
-			<td id="nav_contact" class="navbar">Contact Me</td>
-		</tr>
-	</table>
-
+    <h1>Hey Patrick.</h1>
 </body>
 </html>
